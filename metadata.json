@@ -1,0 +1,5 @@
+{
+  "name": " AI Quiz Generator",
+  "description": "An interactive multiple-choice quiz generator. Upload lecture slides or informational PDFs to generate a challenging, 20-question multiple-choice quiz. Get immediate feedback on your answers and a summary of what you got wrong at the end.",
+  "requestFramePermissions": []
+}
