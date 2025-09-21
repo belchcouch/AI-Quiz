@@ -72,7 +72,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             },
         });
 
-        const jsonString = response.text.trim();
+        const responseText = response.text;
+        if (!responseText) {
+            throw new Error("The AI model did not return a valid response text.");
+        }
+
+        const jsonString = responseText.trim();
         const quizData = JSON.parse(jsonString);
 
         // Optional: Add validation logic here if needed before sending to client
