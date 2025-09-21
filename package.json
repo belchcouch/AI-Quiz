@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "echo 'Use Vercel CLI for local development: vercel dev'",
-    "build": "echo 'Vercel will build API routes automatically'",
     "start": "echo 'No start script'"
   },
   "dependencies": {
